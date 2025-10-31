@@ -1,0 +1,134 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: ivory;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+}
+
+
+header {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: white;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+nav a:hover {
+  color: orange;
+}
+
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+section {
+  background-color: rgb(184, 177, 177);
+  padding: 20px;
+  margin-bottom: 30px; 
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgb(151, 92, 92);
+}
+
+section h2 {
+  color: crimson;
+  border-bottom: 2px black;
+  padding-bottom: 5px;
+  margin-top: 0;
+}
+form input, form textarea, form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  box-sizing: border-box;
+}
+
+form button {
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.4s ease;
+}
+
+form button:hover {
+  background-color: green;
+}
+
+section a img {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  margin-left: 5px;
+  transition: transform 0.3s ease;
+}
+
+section a img:hover {
+  transform: scale(1.2);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+}
+
+footer a {
+  margin: 0 5px;
+}
+
+footer a:hover {
+  color: darkgreen;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2em;
+  }
+
+  nav a {
+    display: block;
+    margin: 5px 0;
+  }
+
+  form input, form textarea, form button {
+    font-size: 0.9em;
+    padding: 8px;
+  }
+
+  section a img {
+    width: 20px;
+    height: 20px;
+  }
+}

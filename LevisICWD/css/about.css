@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: whitesmoke;
+  color: black;
+  line-height: 1.6;
+}
+
+header {
+  background: black;
+  color: white;
+  padding: 25px 0;
+  text-align: center;
+  box-shadow: 0 4px 8px gray;
+}
+
+header h1 {
+  font-size: 2.2em;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  font-weight: bold;
+  display: inline-block;
+  color: white;
+}
+
+nav a:hover {
+  color: gold;
+}
+
+main {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+section {
+  background: white;
+  margin-bottom: 40px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px lightgray;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px gray;
+}
+
+section h2 {
+  color: darkred;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  border-left: 5px solid crimson;
+  padding-left: 10px;
+}
+
+section p {
+  margin-bottom: 15px;
+  font-size: 1.05em;
+  color: dimgray;
+}
+
+img {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px gray;
+}
+
+section article {
+  background: whitesmoke;
+  margin: 15px 0;
+  padding: 15px 20px;
+  border-left: 4px solid darkred;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+section article:hover {
+  background: mistyrose;
+}
+
+article h3 {
+  color: crimson;
+  font-size: 1.3em;
+  margin-bottom: 5px;
+}
+
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 25px 10px;
+  font-size: 0.95em;
+}
+
+footer a {
+  color: gold;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+a {
+  color: darkred;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: crimson;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.8em;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 6px;
+  }
+}
