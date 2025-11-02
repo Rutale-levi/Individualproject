@@ -4,3 +4,22 @@
         font-size: 14px;
      }
 }
+#logo {
+  font-size: clamp(1.3rem, 4vw, 2rem);
+  font-weight: bold;
+}
+
+.menu-link {
+  font-size: clamp(0.8rem, 2.5vw, 1rem);
+  text-decoration: none;
+}
+
+.menu-link:hover {
+  color: orange !important;
+  text-decoration: none;
+}
+
+#mainMenu {
+  flex-wrap: nowrap;
+}
+
