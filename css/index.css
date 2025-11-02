@@ -15,11 +15,27 @@
 }
 
 .menu-link:hover {
-  color: orange !important;
+  color: orange;
   text-decoration: none;
 }
 
 #mainMenu {
   flex-wrap: nowrap;
 }
+#services .badge {
+  font-size: 1rem;
+  padding: 10px 15px;
+  margin: 6px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+#services .badge:hover {
+  background-color: orange;
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px gray;
+}
+
 
